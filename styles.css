@@ -1,0 +1,33 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0077cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+
+  @media (max-width: 600px) {
+    p {
+      font-size: 14px; /
+    }
+  
+    button {
+      background-color: #ff5733; 
+    }
+  }
+  
